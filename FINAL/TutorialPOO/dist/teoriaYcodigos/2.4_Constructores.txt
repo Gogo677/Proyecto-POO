@@ -1,0 +1,53 @@
+﻿---------------Constructores y destructores----------
+
+Un constructor es un método especial de una clase, éste método 
+es llamado automáticamente al crear un objeto de esa clase. 
+La función del constructor es iniciar el objeto.
+
+Un constructor se identifica porque tiene el mismo nombre que 
+la clase a la que pertenece. Un constructor no puede retornar 
+ningún valor. Toda clase de objetos contiene al menos un 
+constructor, aún cuando no se haya definido ninguno se crear 
+uno por defecto al momento de crear un objeto. Un constructor 
+por defecto se puede declarar o puede ser omitido al crear 
+una clase. Se puede crear uno, dos o más constructores según 
+se necesite.
+ 
+Existen 3 diferentes tipos de constructores en java.
+
+1.- Constructor por defecto.
+
+2.- Constructor de copia.
+
+3.- Constructor común (Con argumentos).
+
+--> Destructores <--
+
+Un destructor es un método opuesto a un constructor, 
+éste método en lugar de crear un objeto lo destruye 
+liberando la memoria de nuestra computadora para
+que pueda ser utilizada por alguna otra variable 
+u objeto.
+En java no existen los destructores, esto es
+gracias al recolector de basura de la máquina 
+virtual de java. Como su nombre lo dice, el 
+recolector de basura recolecta todas las variables 
+u objetos que no se estén utilizando y que no 
+haya ninguna referencia a ellos por una clase en 
+ejecución, liberando así automáticamente la memoria 
+de nuestra computadora.
+
+Aunque Java maneja de manera automática el recolector 
+de basura, el usuario también puede decir en que 
+momento Java pase el recolector de basura 
+con la instrucción.
+
+ 
+
+System.gc();
+
+ 
+
+Aunque la instrucción anterior poco o casi nunca se utiliza es importante saber que se puede llamar en cualquier momento.
+
+ 

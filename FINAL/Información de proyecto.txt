@@ -1,0 +1,13 @@
+Integrantes del equipo: 
+Diego Jimenez Gonzalez
+Victor Kevin Perez Garcia
+
+Notas:
+Los conceptos utilizados durante la construcción del proyecto en cuanto a codigo, abarca hasta herencia.
+sin embargo, el proyecto llega a tener codigos ejemplo de polimorfismo y herencia multiple.
+
+Segundo:
+El proyecto fue elaborado en NeatBeans, es mejor abrirlo por ahí.
+Lo mas laborioso del proyecto es la reutilización del objeto Ejecutor, lo hicimos con codigo y lagrimas!!
+Se tuvieron varios problemas a la hora de de exportar el .jar por lo que se cambiaron detalles de ese archivo, pero el ejecutable build de neat beans tambien debe funcionar!!
+

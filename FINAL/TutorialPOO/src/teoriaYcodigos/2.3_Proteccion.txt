@@ -1,0 +1,28 @@
+﻿----------------------Protección----------------------
+
+os "modificadores de acceso", los cuales se utilizan para definir 
+la visibilidad de los miembros de una clase.
+
+Bien, en java tenemos 4 modificadores de acceso:
+
+
+Private: Cuando un método o atributo (variable) es declarada como 
+private, su uso queda restringido al interior de la misma clase, 
+no siendo visible para el resto. Una clase no puede ser Private, 
+sólo atributos y métodos.
+
+(default): Si no se le asigna ningún modificador al elemento
+(variable, método y clase) Java asigna uno denominado "por defecto" 
+el cual permite la visibilidad de los elementos(variables, métodos 
+y clases) en clases que se encuentren en el mismo paquete
+(posteriormente explicaremos los paquetes)
+
+Protected: Un método o atributo definido como protected es visible 
+para las clases que se encuentren en el mismo paquete y para 
+cualquier subclase de esta aunque este en otro paquete. Este 
+modificador es utilizado normalmente para Herencias, así que lo 
+estudiaremos más a fondo cuando lleguemos a las Herencias.
+
+Public: El modificador public ofrece la máxima visibilidad, una 
+variable, método o clase con modificador public será visible desde 
+cualquier clase, aunque estén en paquetes distintos

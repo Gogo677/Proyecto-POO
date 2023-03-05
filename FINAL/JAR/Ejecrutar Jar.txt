@@ -1,0 +1,2 @@
+El jar debe ejecutarse con la carpeta teoriaYcodigos.
+la instruccion en consola de windows es java -jar TutorialPOO.jar

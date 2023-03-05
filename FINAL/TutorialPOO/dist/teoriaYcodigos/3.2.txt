@@ -1,0 +1,21 @@
+*****Clase 1*****
+public class Sobrecarga {
+    
+    public void imprimir(int n){
+        System.out.println(n);
+    }
+    
+    public void imprimir(char c){
+        System.out.println(c);
+    }
+}
+*****Clase 2(ejecutora)*****
+public class EjecutaSobrecarga {
+    
+    public static void main(String args[]){
+        Sobrecarga ejemplo = new Sobrecarga();
+        
+        ejemplo.imprimir('1');
+        ejemplo.imprimir(1);
+    }
+}

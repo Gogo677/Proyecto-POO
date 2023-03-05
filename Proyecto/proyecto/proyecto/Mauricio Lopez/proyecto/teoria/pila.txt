@@ -1,0 +1,43 @@
+-------------------------------------------Pilas---------------------------------------------------------
+Una pila es una estructura en la que los elementos o items al entrar se colocan sobre los que ingresaron
+previamente, por esta razon tambien se le conoce como LIFO, del ingles Last In First Out, que significa
+ultimo en entrar primero en salir. Este comportamiento es similar a una pila de platos en una mesa, el
+ultimo plato que entro sera el primero en salir, asi sucesivamente hasta que el primer plato que se puso en
+la mesa es el ultimo en ser utilizado. La aplicacion del concepto de pilas puede encontrarse en el analisis 
+sintactico de compiladores e interpretes, en los procesos recursivos, en el comando “deshacer los ultimos 
+cambios (Ctrl+z)”, implementado en algunas aplicaciones como Word, Excel, etc. En el caso de que la pila 
+este llena y se desea continuar agregando datos a la misma se puede
+provocar un desbordamiento si no existen condiciones que impidan la insercion.
+
+--> Operaciones de Insercion y Extracion <--
+Para modelar el comportamiento de una pila son necesarios al menos dos procesos: la insercion
+de (Push) y de extraccion (Pop).
+Se usa Push para colocar elementos en la pila, y pop para sacarlos. La pila puede representarse
+con un arreglo en donde el tamaño del arreglo sera el limite de dicha pila, en el caso de que este
+llena y se desee ingresar mas datos la pila se desbordara. Otra manera es a traves de punteros
+en ese caso la denominaremos una pila dinamica en donde el limite lo marca la memoria
+disponible que se encuentre en el monticulo (este termino se refiere a la memoria ociosa o libre
+de la maquina). 
+Algoritmo: Inicio: Pila vacia, Cantidad=0, Maximo=N. En donde Cantidad es el numero de datos en la pila y
+Maximo es la capacidad maxima de N items.
+Paso1: Verificar si Cantidad < Maximo. En caso afirmativo ir al paso 2. En caso negativo reportar
+que “Pila llena” e ir al Paso 5.
+Paso2: Si la pila esta vacia, el elemento se va al fondo e ir al paso 4. Si no ir al Paso3.
+Paso3: Si existen datos en la pila, el elemento se coloca encima del ultimo item que entero.
+Paso4: Incrementar Cantidad en una unidad.
+Paso5: Fin del proceso.
+La pila puede representarse con un arreglo unidimensional de celdas contiguas, en donde se
+establece previamente el tamaño maximo, un indice tope que señalara al ultimo ítem que ingreso. 
+
+--> Notacion infija, prefija y posfija <--
+Las pilas se pueden utilizar para convertir expresiones aritmeticas de notacion infija a prefija o posfija.
+Por ejemplo, dada la expresion (a + b) * c en notacion infija la version en:
+? Notacion posfija o polaca, primero se visitan los operandos y hasta el ultimo los operadores, la
+expresion queda: a b + c *.
+? Notacion prefija, primero se visitan los operadores y hasta el ultimo los operandos, entonces la
+expresion queda: + a b * c.
+Usar expresiones en notacion posfija o prefija implica no utilizar parentesis para indicar precedencia de
+operacion, ya que este queda establecido por la ubicacion de los operadores con respecto a los
+operandos.
+La idea es acumular los componentes de las expresiones en la pila con push(), y con pop() se obtiene la
+expresión infija. Esto lo utilizan los compiladores para realizar el analisis sintactico.

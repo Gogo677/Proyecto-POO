@@ -1,0 +1,39 @@
+El concepto de emcapsulamiento tiene que ver con el concepto de proteccion del tema anterior
+en donde una clase se comunica a los datos del objeto por medio de metodos publicos
+
+********Clase 1*********
+public class EstrellaProtegida {
+  
+    private int picos;
+    private String color;
+    
+    public int getPicos(){
+        return picos;
+    }
+    
+    public void setPicos(int picos){
+        this.picos=picos;
+    }
+    
+    public String getColor(){
+        return color;
+    }
+    
+    public void setColor(String color){
+        this.color=color;
+    }          
+       
+}
+
+********Clase 2 (ejecutora)*********
+public class EjecutaEstrellaProtegida {
+    
+    public static void main(String[] args){
+        EstrellaProtegida estrellita = new EstrellaProtegida();
+        
+        estrellita.setPicos(5);
+        estrellita.setColor("amarillo");
+        
+        System.out.println(" picos:"+estrellita.getPicos()+"\n color: "+estrellita.getColor());
+    }
+}

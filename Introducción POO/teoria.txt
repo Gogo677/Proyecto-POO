@@ -1,0 +1,29 @@
+--> Enfoque Orientado a Objetos <--
+Al momento de diseñar un sistema, es fundamental tener estos 3 principios:
+
+* Análisis.
+* Diseño.
+* Codificación.
+
+Pero en el paradigma "Orientado a Objetos", pasan a ser:
+
+* Análisis (AOO): Modelar la semántica del problema en términos de objetos 
+ distintos pero relacionados.
+* Diseño (DOO): Reexamina las clases del problema, refinándolas, extendiéndolas
+y reorganizándolas, para mejorar su reutilización y tomaar ventaja de la herencia.
+* Implementación: Utilización de un lenguaje Orientado a Objetos para la traducción 
+del DOO y la iteración con otros objetos. 
+
+Por lo que su enfoque se resume en:
+* Análisis.
+* Diseño.
+* Evolución.
+* Modificación.
+
+Y tiene 4 Pilares fundamentales:
+* Abstracción
+* Herencia
+* Encapsulamiento
+* Polimorfismo
+
+Y también la utilización de clases, que se explica de mejor manera, más adelante.  

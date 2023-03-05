@@ -1,0 +1,21 @@
+﻿---------------------Antecedentes de la programación orientada a objetos----
+
+La Programación Orientada a Objetos (POO) surge por primera vez en Noruega en 1967 con un lenguaje llamado Simula 67 desarrolllado
+por Krinsten Nygaard y Ole-Johan Dahl, en el centro de cálculo noruego Simula 67 introfujo pro primera vez los conceptos de clases,
+corrutinas y subclases. De ahí nace el famoso "Hola Mundo".
+
+En los 70´s fue desarrollado SmallTalk en Simula en Xerox Parc, programa que fue desarrollado en Basic el cual refino las 
+características de Simula 67,siendo éste un sistema completamente dinámico en el cual los objetos se podrían crear y modificar, en 
+lugar de tener un sistema estático.
+
+Quien tuvo la idea fue D. Parnas cuando propuso la disciplina de ocultar la información. Su idea era encapsular cada una de las 
+variables globales d la aplicación en un módulo juntos con sus operaciones asociadas.
+
+En los 80´s. "C" se amplia y crea "C++", programa que ocntaba con 3 principales características: abstracción, soporte para la POO 
+y el soporte de las plantillas o programación genérica. Para crera nuevos lenguajes basados en métodos Orientados a Objetos, pero 
+permitiendo algunas características imperativas de manera segura se creó el "Eiffelde Betrand Meyer" quien fue un temprano y 
+moderadamente acertado lenguaje con esos objetivos pero que de manera rápida fue reemplazado po0r JAVA.
+
+En 1997-98 se desarrollan herramientas "CASE" orientadas a objetos (como el diseño asistido por computadora).Del 98 a la fecha 
+se desarrolla la arquitectura de objetos distribuidos RMI, Corba, COM, DCOM.
+

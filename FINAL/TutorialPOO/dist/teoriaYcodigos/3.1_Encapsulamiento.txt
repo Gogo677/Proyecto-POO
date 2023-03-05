@@ -1,0 +1,36 @@
+﻿---------------Encapsulamiento----------------------
+
+es un mecanismo que consiste en organizar datos y métodos 
+de una estructura, conciliando el modo en que el objeto 
+se implementa, es decir, evitando el acceso a datos por 
+cualquier otro medio distinto a los especificados. 
+Por lo tanto, la encapsulación garantiza la integridad 
+de los datos que contiene un objeto.
+
+--> Ocultación de datos <--
+l usuario de una clase en particular no necesita saber 
+cómo están estructurados los datos dentro de ese objeto, 
+es decir, un usuario no necesita conocer la implementación.
+Al evitar que el usuario modifique los atributos 
+directamente y forzándolo a utilizar funciones definidas 
+para modificarlos (llamadas interfaces), se garantiza la 
+integridad de los datos (por ejemplo, uno puede asegurarse 
+de que el tipo de datos suministrados cumple con nuestras 
+expectativas, o icluso que los datos se encuentran dentro 
+del intervalo esperado).
+
+La encapsulación define los niveles de acceso para 
+elementos de esa clase. Estos niveles de acceso definen 
+los derechos de acceso para los datos, permitiéndonos 
+el acceso a datos a través de un método de esa clase en 
+particular, desde una clase heredada o incluso desde 
+cualquier otra clase. Existen tres niveles de acceso: 
+público, las funciones de todas las clases pueden acceder 
+a los datos o métodos de una clase que se define con el 
+nivel de acceso público. Este es el nivel de protección 
+de datos más bajo; protegido, el acceso a los datos está 
+restringido a las funciones de clases heredadas, 
+es decir, las funciones miembro de esa clase y todas 
+las subclases; privado, el acceso a los datos está 
+restringido a los métodos de esa clase en particular. 
+Este es nivel más alto de protección de datos.

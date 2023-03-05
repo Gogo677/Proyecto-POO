@@ -1,0 +1,97 @@
+*****Clase 1 (padre)*****
+public class Persona {
+    private String nombre;
+    private int edad;
+    
+    public Persona(String nombre,int edad){
+        this.nombre=nombre;
+        this.edad=edad;
+    }
+    
+    public String getNombre() {
+		return nombre;
+	}
+    
+    public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+    public int getEdad() {
+		return edad;
+	}
+    
+    public void setEdad(int edad) {
+		this.edad = edad;
+	}
+}
+*****Clase 2 (hijo de clase 1)*****
+public class Alumno extends Persona {
+    String numCuenta;
+    
+    public Alumno(String nombre, int edad,String numCuenta) {
+        super(nombre, edad);
+        this.numCuenta=numCuenta;
+    }
+    
+    public String getNumCuenta() {
+		return numCuenta;
+	}
+    
+    public void setNumcuenta(String numCuenta) {
+		this.numCuenta = numCuenta;
+	}
+    
+}
+*****Clase 3 (hijo de clase 1)*****
+
+public class Profesor extends Persona{
+    String numTrabajador;
+    
+    public Profesor(String nombre, int edad,String numTrabajador) {
+        super(nombre, edad);
+        this.numTrabajador=numTrabajador;
+    }
+    
+    public String getNumTrabajador() {
+		return numTrabajador;
+	}
+    
+    public void setNumTrabajador(String numTrabajador) {
+		this.numTrabajador = numTrabajador;
+	}
+    
+    public void calificar(){};
+}
+
+*****Herencia Multiple en Java*****
+En java solo puedes tener un padre directo o bien que se implementen interfaces y asi, simular herencia multiple.
+a continuacion presentamos un interfaz, y un tipo de herencia multiple
+
+****Interfaz 1*****
+public interface Actor {
+    static final String  nombreProfesion = "Actor";
+    
+    public void Actuar();
+}
+*****Clase 4(hijo de clase 1 y de interfaz 1)*****
+public class PersonaActora extends Persona implements Actor {
+    String nombrePapel;
+    
+    public PersonaActora(String nombre, int edad,String nombrePapel) {
+        super(nombre, edad);
+        this.nombrePapel=nombrePapel;
+    }
+
+    
+    public void Actuar() {
+      //se eimplementan los metodos
+    }
+    
+    public String getNombrePapel() {
+		return nombrePapel;
+	}
+    
+    public void setNombrePapelr(String nombrePapel) {
+		this.nombrePapel = nombrePapel;
+	}
+     
+}

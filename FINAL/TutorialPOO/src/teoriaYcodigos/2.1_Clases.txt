@@ -1,0 +1,9 @@
+﻿---------------------------Clases--------------------
+
+Es la descripción de un conjunto de objetos similares; consta de métodos 
+y de datos que resumen las características comunes de dicho conjunto.
+ En un lenguaje de programación orientada a objetos se pueden definir 
+muchos objetos de la misma clase de la misma forma que, en la vida 
+real, haríamos galletas (objeto) con el mismo molde (clase) solo que, 
+para entenderlo mejor, cada galleta tendría igual forma pero es posible 
+que tenga distinto sabor, textura, olor, color, etc.

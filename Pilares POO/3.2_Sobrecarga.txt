@@ -1,0 +1,27 @@
+﻿---------------------Sobrecarga de funciones-----------
+
+Es un mecanismo que permite asignar el mismo nombre a funciones distintas. 
+Para el compilador estas funciones no tienen nada en común a excepción 
+del identificador, por lo que se trata en realidad de un recurso 
+semántico del lenguaje que solo tiene sentido cuando se asigna el mismo 
+nombre a funciones que realizan tareas similares en objetos diferentes.
+
+Por ejemplo, si tuviésemos objetos que fuesen diversos tipos de polígono 
+(triángulo, cuadrado, pentágono, círculo, etc), tendría sentido denominar 
+getArea a todas las funciones que calculasen el área de las diversas 
+figuras, aunque naturalmente serían funciones distintas en cada caso. 
+También tendría sentido denominar open a las funciones que abrieran un 
+fichero o una línea de comunicación.
+
+Al tratar de los operadores, para el compilador son en realidad 
+funciones, cuyos nombres y sintaxis de invocación son un tanto 
+especiales y que la sobrecarga de estas funciones permite, 
+por ejemplo, extender los conceptos de suma (+), asignación (=) 
+o identidad (==), a objetos distintos de los básicos 
+(preconstruidos en el lenguaje). El hecho de que acciones 
+distintas pero conceptualmente semejantes, puedan ser 
+representadas por el mismo operador (función), resulta 
+a la postre una gran ayuda conceptual. Por ejemplo: 
+puede hablarse de una "suma" de enteros y de una "suma" 
+de complejos que serán gobernadas por versiones 
+distintas del operador suma (+).

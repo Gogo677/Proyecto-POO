@@ -1,0 +1,27 @@
+﻿--------------------Ventajas de la programación orientada a objetos----------
+
+POO ofrece varias ventajas tanto para el diseñador del programa como para el usuario. 
+La orientación a objetos contribuye a la solución de muchos problemas asociados con 
+el desarrollo y la calidad de los productos software. La nueva tecnología promete 
+mayor productividad del programador, mejor calidad de software y menor costo de 
+mantenimiento.
+
+Las principales ventajas son:
+
+Por medio de la herencia, podemos eliminar código redundante y extender el uso de 
+clases existentes. Podemos construir programas a partir de módulos de trabajo 
+estándar que se comunican entre sí, en lugar de tener que empezar desde cero la 
+escritura del código. Esto conduce a un ahorro en el tiempo de desarrollo y a una 
+productividad mayor.
+
+El principio de ocultación de los datos ayuda al programador a construir programas 
+seguros que no pueden ser invadidos por código de otras partes del programa.
+Es posible tener múltiples copias de un objeto que coexisten sin ninguna interferencia.
+Es posible transformar objetos del dominio del problema a otros en los programas.
+Es fácil dividir el trabajo de un proyecto basado en objetos.
+El enfoque del diseño centrado en los datos nos permite capturar más detalles de 
+un modelo de forma que se puedan implementar. Se pueden mejorar y actualizar fácilmente 
+los sistemas orientados a objetos desde los pequeños hasta los grandes sistemas.
+Las técnicas de pase de mensajes para la comunicación entre objetos simplifican 
+mucho las descripciones de las interfaces con sistemas externos.
+Se puede gestionar fácilmente la complejidad del software.

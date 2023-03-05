@@ -1,0 +1,13 @@
+package codigosEjemplo;
+
+public class Estrella {
+    //caracteristicas del objeto
+    int picos;
+    String color;
+    
+    //metodos del objeto
+    public void imprimeCaracteristicas(){
+        System.out.println("La estrella tiene " + picos + " picos.");
+        System.out.println("Y es de color:" +color);
+    }
+}

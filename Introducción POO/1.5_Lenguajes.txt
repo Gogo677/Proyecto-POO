@@ -1,0 +1,24 @@
+﻿-----------------------Lenguajes orientados a objetos----------
+
+Los lenguajes de programación orientados a objetos tienen su origen en un 
+lenguaje que fue diseñado por los profesores Ole-Johan Dahl y Kristen 
+Nygaard en Noruega. Este lenguaje de programación orientado a objetos fue 
+el “Simula 67” que fue un lenguaje creado para hacer simulaciones de naves.
+
+Los lenguajes de programación orientadas a objetos son lenguajes dinámicos 
+en los que estos objetos se pueden crear y modificar sobre la marcha. 
+Esta programación orientada a objetos (POO) tomo auge a mediados de los años 
+ochenta debido a la propagación de las interfaces gráficas de usuarios, para 
+lo que los lenguajes de programación orientados a objetos están especialmente 
+dotados.
+
+Los principales lenguajes de programación orientados a objetos son:
+
+Ada, C++, C#, VB.NET, Clarion, Delphi, Eiffel, Java, Lexico (en castellano), 
+Objective-C, Ocaml, Oz, PHP, PowerBuilder, Python, Ruby y Smalltalk.
+
+No todos estos lenguajes de programación orientados a objetos son específicamente 
+orientados a objetos. Sino que algunos de ellos se le han añadido extensiones 
+orientadas a objetos. Un nuevo paso en los lenguajes de programación es la 
+Programación orientada a aspectos (POA). Actualmente esta en fase de desarrollo, 
+pero cada vez atrae a más investigadores y empresas de todo el mundo.

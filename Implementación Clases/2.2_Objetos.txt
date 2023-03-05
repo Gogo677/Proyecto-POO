@@ -1,0 +1,39 @@
+﻿---------------------------Objetos e instanciación------------------
+
+Una clase no es más que una serie de código que define a todos los elementos 
+relacionados con ella. Así, podríamos escribir la clase ave colocando en 
+ella todas las características que tienen las aves (pico, color, alto, 
+ancho, patas,…) esas características las llamaremos en lenguaje de 
+programadores, propiedades.
+
+Entonces, vemos que una clase es algo así como el concepto de lo que queremos
+hacer, es como la idea (concebida al detalle) de la cosa, del objeto; pero 
+igual que con las ideas, no puedo hacer nada directamente con una clase 
+(puedes sentarte en una silla, pero no en tu idea de una silla). Sin embargo,
+esta idea será la que dé forma al objeto que crearemos (que tendrá las 
+características, mecanismos y comportamientos que habíamos pensado en 
+nuestra idea).
+
+--> Instanciación <--
+ decíamos que una clase es como la definición de un objeto, pero no es el 
+objeto en sí, del modo como una idea no es una cosa física (el ejemplo de la 
+silla). Así que para sentarnos necesitaremos convertir esa idea en algo, 
+en un objeto real; a ese objeto lo llamamos instancia.
+
+En un mismo proyecto puedo tener una o más instancias de una misma clase 
+sin problemas.
+
+Cada vez que creamos una nueva instancia, ésta adquiere las propiedades,
+métodos y eventos de la clase a la que pertenece (es lo que permite la 
+relación es un), sin embargo, cada instancia es independiente de las otras; 
+esto nos da dos ventajas:
+
+Si hago algún cambio en la clase, todas las instancias de esta clase se 
+actualizarán automáticamente; esto nos permite hacer cambios sin tener que 
+ir a cada una de las instancias (se aplica el mismo principio de herencia, 
+aunque a un nivel diferente).
+Al ser independientes de las otras instancias, puedo darles valores 
+diferentes sin que afecten a las demás (como tener una silla negra, 
+una roja, una más alta, etc.). Aunque comparten la misma estructura, 
+pueden programarse individualmente, dando versatilidad y flexibilidad 
+al código.
